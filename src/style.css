@@ -3,9 +3,37 @@
   padding: 0;
 }
 
+html {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  color: #343a40;
+  font-family: "Lato", sans-serif;
+  background-color: #e7f5ff;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.construct {
+  margin-top: 250px;
+  font-size: 64px;
+  letter-spacing: 2px;
+  line-height: 150px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.construct p {
+  font-size: 24px;
+  letter-spacing: 12px;
+}
+
 .container {
-  width: 1080px;
-  margin: 0 auto;
+  display: grid;
 }
 
 .item-list {
