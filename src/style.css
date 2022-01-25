@@ -15,10 +15,19 @@ body {
 }
 
 .construct {
-  margin-top: 24rem;
+  margin-top: 12rem;
 
   text-align: center;
   text-transform: uppercase;
+}
+
+.logo {
+  height: 24rem;
+  width: 24rem;
+  opacity: 0.7;
+  /* margin: 4rem 0 2rem 0; */
+  margin: 5rem;
+  /* fill: red !important; */
 }
 
 .title {
@@ -26,7 +35,7 @@ body {
   letter-spacing: 2px;
   line-height: 13rem;
   margin-bottom: 6rem;
-  padding: 2rem;
+  /* padding: 2rem; */
 }
 
 .detail {
@@ -45,11 +54,18 @@ body {
 .footer {
   /* margin-bottom: -100px; */
   text-align: center;
-  margin-top: 28rem;
+  margin-top: 10rem;
   font-size: 1.4rem;
 }
 
 @media (max-width: 1080px) {
+  .logo {
+    height: 16rem;
+    width: 16rem;
+    opacity: 0.7;
+    margin: 2rem;
+  }
+
   .title {
     font-size: 6rem;
     line-height: 6.5rem;
@@ -62,6 +78,6 @@ body {
   }
 
   .footer {
-    margin-top: 44rem;
+    margin-top: 50rem;
   }
 }
