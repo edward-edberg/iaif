@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <p>Copyright &copy; {new Date().getFullYear()} by IAIF</p>
     </footer>
   );

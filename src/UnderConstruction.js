@@ -3,10 +3,10 @@ import React from "react";
 const UnderConstruction = () => {
   return (
     <div className="construct">
-      <h1>
+      <h1 className="title">
         Under<br></br>Construction
       </h1>
-      <p>site nearly ready</p>
+      <p className="detail">site nearly ready</p>
     </div>
   );
 };

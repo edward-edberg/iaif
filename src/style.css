@@ -1,11 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-  height: 100%;
-  overflow: hidden;
+  font-size: 62.5%;
+  max-height: 100%;
 }
 body {
   color: #343a40;
@@ -13,23 +14,24 @@ body {
   background-color: #e7f5ff;
 }
 
-footer p {
-  text-align: center;
-  margin-top: 200px;
-}
-
 .construct {
-  margin-top: 250px;
-  font-size: 64px;
-  letter-spacing: 2px;
-  line-height: 150px;
+  margin-top: 24rem;
+
   text-align: center;
   text-transform: uppercase;
 }
 
-.construct p {
-  font-size: 24px;
-  letter-spacing: 12px;
+.title {
+  font-size: 12rem;
+  letter-spacing: 2px;
+  line-height: 13rem;
+  margin-bottom: 6rem;
+  padding: 2rem;
+}
+
+.detail {
+  font-size: 2.4rem;
+  letter-spacing: 1.2rem;
 }
 
 .container {
@@ -38,4 +40,28 @@ footer p {
 
 .item-list {
   list-style: none;
+}
+
+.footer {
+  /* margin-bottom: -100px; */
+  text-align: center;
+  margin-top: 28rem;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 1080px) {
+  .title {
+    font-size: 6rem;
+    line-height: 6.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .detail {
+    font-size: 2rem;
+    letter-spacing: 1rem;
+  }
+
+  .footer {
+    margin-top: 44rem;
+  }
 }
