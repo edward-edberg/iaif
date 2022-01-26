@@ -62,7 +62,7 @@ body {
   font-size: 12rem;
   letter-spacing: 2px;
   line-height: 13rem;
-  padding: 0 2rem;
+  padding: 0 0rem;
 }
 
 .detail {
@@ -143,13 +143,13 @@ body {
 
 @media (max-width: 1080px) {
   .title {
-    font-size: 5rem;
+    font-size: 4.5rem;
     line-height: 6.5rem;
   }
 
   .detail {
-    font-size: 2rem;
-    letter-spacing: 1rem;
+    font-size: 1.8rem;
+    letter-spacing: 0.8rem;
   }
 
   .logo {
@@ -160,5 +160,15 @@ body {
 
   .logo-heading {
     font-size: 1.8rem;
+  }
+
+  .footer-heading {
+    font-size: 2rem;
+  }
+  .contacts {
+    font-size: 1.6rem;
+  }
+  .copyright {
+    font-size: 1.6rem;
   }
 }
