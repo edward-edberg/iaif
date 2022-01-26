@@ -146,4 +146,19 @@ body {
     font-size: 5rem;
     line-height: 6.5rem;
   }
+
+  .detail {
+    font-size: 2rem;
+    letter-spacing: 1rem;
+  }
+
+  .logo {
+    width: 16rem;
+    height: auto;
+    margin-top: 1rem;
+  }
+
+  .logo-heading {
+    font-size: 1.8rem;
+  }
 }
