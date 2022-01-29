@@ -125,12 +125,14 @@ body {
 
 .iaif-logo {
   display: block;
+  margin-bottom: 0.5rem;
 }
 
 .copyright {
   /* display: flex; */
   margin-top: auto;
   font-size: 2rem;
+
   /* padding-bottom: 1rem; */
 }
 

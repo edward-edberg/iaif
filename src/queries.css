@@ -41,7 +41,7 @@
   }
   .address-col {
     grid-row: 1;
-    padding: 0 2rem;
+    padding: 0 3.2rem;
     margin-bottom: 3.2rem;
   }
   .logo-col {
@@ -49,6 +49,6 @@
   }
   .footer {
     margin-bottom: 3.2rem;
-    padding: 12rem 0 0 0;
+    padding: 12rem 0 0rem 0;
   }
 } ;
