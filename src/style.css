@@ -158,35 +158,3 @@ body {
   align-items: center;
   gap: 1rem;
 }
-
-@media (max-width: 1080px) {
-  .title {
-    font-size: 4.5rem;
-    line-height: 6.5rem;
-  }
-
-  .detail {
-    font-size: 1.8rem;
-    letter-spacing: 0.8rem;
-  }
-
-  .logo {
-    width: 16rem;
-    height: auto;
-    margin-top: 1rem;
-  }
-
-  .logo-heading {
-    font-size: 1.8rem;
-  }
-
-  .footer-heading {
-    font-size: 2rem;
-  }
-  .contacts {
-    font-size: 1.6rem;
-  }
-  .copyright {
-    font-size: 1.6rem;
-  }
-}

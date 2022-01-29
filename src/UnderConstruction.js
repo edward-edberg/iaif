@@ -5,10 +5,10 @@ import logo from "./img/01.png";
 const UnderConstruction = () => {
   return (
     <div className="construct">
-      <h1 className="title">
+      {/* <h1 className="title">
         Under<br></br>Construction
       </h1>
-      <p className="detail">site nearly ready</p>
+      <p className="detail">site nearly ready</p> */}
       <div className="">
         <img src={logo} alt="" className="logo" />
         <p className="logo-heading">

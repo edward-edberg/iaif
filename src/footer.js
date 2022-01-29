@@ -64,8 +64,8 @@ function Footer() {
                 <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
               </svg>
               <p>
-                <a href="mailto:miftahsabri@iaif.us" className="footer-link">
-                  miftahsabri@iaif.us
+                <a href="mailto:contact@iaif.us" className="footer-link">
+                  contact@iaif.us
                 </a>
               </p>
             </div>
