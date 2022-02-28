@@ -33,7 +33,7 @@ function Footer() {
                   rel="noopener noreferrer"
                   href="https://www.google.com/maps/place/53+W+Jackson+Blvd+STE+1734,+Chicago,+IL+60604/@41.8777256,-87.6317474,17z/data=!3m1!4b1!4m5!3m4!1s0x880e2cbd21037c8f:0x88e3f5207e8d689a!8m2!3d41.8777256!4d-87.6295587"
                 >
-                  53 W. Jackson Blvd., Suite 1734, Chicago, IL 60604-1234
+                  53 W. Jackson Blvd., Suite 1734, Chicago, IL 60604
                 </a>
               </p>
             </div>
