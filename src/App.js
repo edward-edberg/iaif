@@ -1,11 +1,14 @@
 import React from "react";
 import Footer from "./footer.js";
-import UnderConstruction from "./UnderConstruction.js";
+import Hero from "./hero.js";
+import Header from "./header.js";
+// import UnderConstruction from "./UnderConstruction.js";
 
 function App() {
   return (
     <div className="container">
-      <UnderConstruction />
+      <Header />
+      <Hero />
       <Footer />
     </div>
   );
