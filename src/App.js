@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./footer.js";
 import Hero from "./hero.js";
 import Header from "./header.js";
+import Mission from "./mission.js";
 // import UnderConstruction from "./UnderConstruction.js";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="container">
       <Header />
       <Hero />
+      <Mission />
       <Footer />
     </div>
   );

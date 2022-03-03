@@ -139,6 +139,76 @@ body {
 }
 
 /* **************************** */
+/* MISSION */
+/* **************************** */
+.mission-values {
+  display: flex;
+  /* gap: 6.4rem; */
+  padding: 12rem 0;
+  /* background-color: #ececec; */
+  background-color: #fff;
+  /* background-color: rgba(47, 49, 139, 0.005); */
+  flex-direction: column;
+}
+
+.mission {
+  text-align: center;
+  margin-bottom: 6.4rem;
+}
+
+.mission-title {
+  font-weight: 500;
+  font-size: 4rem;
+  padding: 0 6.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.mission-item {
+  /* gap: 0rem; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 6.4rem;
+  font-weight: 400;
+  font-size: 2.4rem;
+  width: 75rem;
+  /* margin-bottom: 3.2rem; */
+}
+
+.values {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: auto;
+  margin-right: auto;
+  gap: 3.2rem;
+
+  width: 110rem;
+}
+
+.value-list {
+  font-weight: 400;
+  font-size: 2rem;
+  padding: 3.2rem 3.2rem;
+  border: 2px solid rgba(47, 49, 139, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.075);
+  /* background-color: rgba(47, 49, 139, 0.005); */
+}
+
+.value-item {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+
+ion-icon {
+  font-size: 32px;
+  color: #2f318b;
+}
+/* .value-icon {
+  font-size: 64px;
+} */
+
+/* **************************** */
 /* FOOTER */
 /* **************************** */
 
